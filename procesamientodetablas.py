@@ -101,6 +101,9 @@ propiedadesEnElCentroGeograficoCapFed = propiedades.loc[tieneInformacionGeografi
                                                         enCapitalFederal & 
                                                         esCercanoAlCentroGeograficoCapFed]
 
+#agrandar mapa
+plt.figure(figsize=(15,15))
+
 #mapa
 mapaCentroGeograficoCapFed = Basemap(
     projection='cyl',
